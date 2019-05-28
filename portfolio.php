@@ -24,6 +24,10 @@
     <div id="profil">
         <div>
             <img src="img/photoProfil2.jpg" alt="photoProfil2"/>
+
+            <table>
+                
+            </table>
         </div>
     </div>
 </body>

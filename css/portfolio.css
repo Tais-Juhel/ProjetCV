@@ -13,7 +13,7 @@ nav{
 }
 nav ul li, nav li, nav ul{
     display: inline-block; 
-    margin: 0 20vh;
+    margin: 0 15vh;
 }
 nav li:first-of-type{
     margin-left: 10px;
@@ -55,9 +55,7 @@ nav img{
     padding-top: 100px;
 }
 #profil div{
-    border: solid;
     background: #19057A;
-    padding: 
 }
 #profil img{
     width: 15%;
