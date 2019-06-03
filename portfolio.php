@@ -1,3 +1,9 @@
+<?php
+
+require_once "_connection.php";
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
