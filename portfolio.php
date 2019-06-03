@@ -42,7 +42,14 @@ require_once "_connection.php";
                     </tr>
                     <tr>
                         <th>Age</th>
-                        <td>19 ans</td>
+                        <td><?php
+
+                            $date = new DateTime();
+                            $naiss = new DateTime('2000-03-19');
+                            $interval = $date->diff($naiss);
+                            echo $interval->format('%Y ans');
+
+                        ?></td>
                         <th>Activité</th>
                         <td>Etudiant en informatique</td>
                     </tr>
@@ -128,12 +135,6 @@ require_once "_connection.php";
             <li>Musique (guitare et piano)</li>
             <li>Jeux vidéo</li>
             <li>2011 : Théâtre (3 représentations)</li>
-            <?php
-                $stmt = $dbh->query('SELECT * FROM spaceql.client');
-                while($row = $stmt->fetch(PDO::FETCH_ASSOC)):
-            ?>
-                <li><?= $row['nom_client']; ?></li>
-            <?php endwhile ?>
         </ul>
 
         <nav>

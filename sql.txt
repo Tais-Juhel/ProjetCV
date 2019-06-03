@@ -1,0 +1,24 @@
+CREATE TABLE web.profil
+(
+	compt1 varchar(20),
+	compt2 varchar(20),
+	compt3 varchar(20),
+	compt4 varchar(20),
+	compt5 varchar(20),
+	ville varchar(30),
+	activ varchar(150),
+	pht varchar(1000)
+);
+
+INSERT INTO web.profil VALUES
+(
+	'CURIEUX',
+	'SOCIABLE',
+	'DYNAMIQUE',
+	'IMAGINATIF',
+	'APPLIQUE',
+	'Nantes',
+	'Etudiant en informatique',
+	'img/photoProfil.jpg'
+);
+

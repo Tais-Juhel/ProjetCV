@@ -14,9 +14,15 @@ div:first-of-type{
     margin: auto;
 }
 
-img{
+#pht{
     width: 40%;
+    border: solid transparent;
     border-radius: 100%;
+    overflow: hidden;
+    height: auto;
+}
+img{
+    width: 100%;
 }
 
 h1{
@@ -56,11 +62,4 @@ input{
     outline: none;
     border-radius: 100px;
     cursor: pointer
-}
-
-
-
-
-div:first-of-type{
-    margin-top: 20px;
 }
