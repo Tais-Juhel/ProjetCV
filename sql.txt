@@ -22,3 +22,14 @@ INSERT INTO web.profil VALUES
 	'img/photoProfil.jpg'
 );
 
+CREATE TABLE web.competence
+(
+	id SERIAL UNIQUE,
+	compt varchar(1000),
+	alt varchar(20)
+);
+
+
+
+
+

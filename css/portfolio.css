@@ -25,7 +25,7 @@ h2{
 #menu ul{
     margin: 0;
 }
-#menu a{
+#menu a:not(#contactNav){
     text-decoration: none;
     color: yellow;
     font-size: 110%;
@@ -39,6 +39,8 @@ h2{
     background: yellow;
     color: #19057A;
     font-weight: bolder;
+    font-size: 110%;
+    text-decoration: none
 }
 #logoNav{
     top: 7px;

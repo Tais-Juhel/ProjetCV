@@ -61,17 +61,12 @@ require_once "_connection.php";
         <h2>COMPETENCES</h2>
 
         <nav id="compt">
-            <img src="img/html5.png" alt="html">
-            <img src="img/css3.png" alt="css">
-            <img src="img/javascript.png" alt="js">
-            <img src="img/jquery.png" alt="jquery">
-            <img src="img/php.png" alt="php">
-            <img src="img/python.png" alt="python">
-            <img src="img/postgre.png" alt="pgsql">
-            <img src="img/mysql.png" alt="mysql">
-            <img src="img/java.png" alt="java">
-            <img src="img/xd.png" alt="xd">
-            <img src="img/illustrator.png" alt="illustrator">
+            <?php
+                $stmt = $dbh->query('SELECT * FROM web.competence');
+                while($row = $stmt->fetch(PDO::FETCH_ASSOC)):
+            ?>
+                <img src="<?= $row['compt']; ?>" alt="<?= $row['alt'] ?>">
+            <?php endwhile; ?>
         </nav>
     </section>
 
