@@ -122,6 +122,12 @@
             <li>Musique (guitare et piano)</li>
             <li>Jeux vidéo</li>
             <li>2011 : Théâtre (3 représentations)</li>
+            <?php
+                $stmt = $dbh->query('SELECT * FROM spaceql.client');
+                while($row = $stmt->fetch(PDO::FETCH_ASSOC)):
+            ?>
+                <li><?= $row['nom_client']; ?></li>
+            <?php endwhile ?>
         </ul>
 
         <nav>

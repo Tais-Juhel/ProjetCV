@@ -1,0 +1,11 @@
+.page{
+    text-align: center;
+} 
+.page li{
+    font-family: 'Rajdhani', sans-serif;
+    display: inline-block;
+    padding: 5px;
+}
+.active{
+    border-bottom: solid;
+}
