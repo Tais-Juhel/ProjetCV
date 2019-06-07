@@ -16,7 +16,7 @@
         <input class="inline" type="text" name="prenom" placeholder="Prénom">
         <input type="text" name="mail" placeholder="Mail">
         <input type="text" name="objet" placeholder="Objet">
-        <input type="text" name="mssg" placeholder="Ecrivez votre message ici ...">
+        <textarea name="mssg">Ecrivez votre message ici ...</textarea>
         <input type="submit" name="send" value="Envoyer">
     </form>
 </body>

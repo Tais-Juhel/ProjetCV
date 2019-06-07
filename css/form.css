@@ -35,3 +35,8 @@ input[value="Envoyer"]{
     background: yellow;
     cursor: pointer;
 }
+textarea{
+    height: 200px;
+    width: 400px;
+    font-family: 'Rajdhani', sans-serif;
+}
