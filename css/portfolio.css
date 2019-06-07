@@ -141,6 +141,34 @@ td{
     text-decoration: none;
 }
 
+#loisirs{
+    text-align: center;
+}
+#loisirs img{
+    width: 70%;
+}
+#loisirs li{
+    margin: 2%;
+    text-align: center;
+    display: inline-block;
+    width: 8%;
+}
+
+footer{
+    padding: 1%;
+    margin-top: 10%;
+    background: #19057A;
+    text-align: center;
+    color: yellow;
+}
+footer p{
+    padding: 3% 0;
+}
+footer img{
+    padding-top: 2%;
+    width: 3%;
+}
+
 
 
 

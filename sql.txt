@@ -29,7 +29,76 @@ CREATE TABLE web.competence
 	alt varchar(20)
 );
 
+CREATE TABLE web.diplome
+(
+	id SERIAL UNIQUE,
+	dipl varchar(200)
+);
 
+INSERT INTO web.diplome (dipl) VALUES
+(
+	'Actuellement : Etudiant 1ere année Bachelor Informatique (Ynov - Nantes)'
+);
+INSERT INTO web.diplome (dipl) VALUES
+(
+	'Baccalauréat S-SI (Science de l''ingénieur)'
+);
+INSERT INTO web.diplome (dipl) VALUES
+(
+	'Formation général BAFA (Ufcv - Vannes)'
+);
+INSERT INTO web.diplome (dipl) VALUES
+(
+	'Initiateur Fédération Française de Basketball'
+);
+INSERT INTO web.diplome (dipl) VALUES
+(
+	'Animateur Fédération Française de Basketball'
+);
 
+CREATE TABLE web.experience
+(
+	id int,
+	sstitre varchar(200),
+	dscrp varchar(200)
+);
 
+INSERT INTO web.experience (id, sstitre) VALUES
+(1, '2019/2016 : Equipe de moins de 11ans - Similienne Nantes');
+INSERT INTO web.experience (id, sstitre, dscrp) VALUES
+(2, '26 au 31 Août 2018 et 21 au 25 Août 2017 :', 'Encadrement de stage de basket (jeunes de 11 à 17ans)');
+INSERT INTO web.experience (id, sstitre) VALUES
+(2, '19 Juin 2017 : Coupe du monde 3x3 "The Bridge" tous publics');
+INSERT INTO web.experience (id, sstitre) VALUES
+(3, '2019/2012 : Arbitre de champs de table (toutes catégories)');
+INSERT INTO web.experience (id, sstitre) VALUES
+(3, '1er Mai 2016 : Fête Nationnal du Mini-Basket - Nantes');
 
+CREATE TABLE web.titreexp
+(
+	id SERIAL UNIQUE,
+	titre varchar(50)
+);
+
+INSERT INTO web.titreexp (titre) VALUES
+('Entraîneur et coach de basket :');
+INSERT INTO web.titreexp (titre) VALUES
+('Animateur Basket :');
+INSERT INTO web.titreexp (titre) VALUES
+('Abritre :');
+
+CREATE TABLE web.loisir
+(
+	id SERIAL UNIQUE,
+	img varchar(1000),
+	nom varchar(50)
+);
+
+INSERT INTO web.loisir (img, nom) VALUES
+('/img/basket.png', 'Basket');
+INSERT INTO web.loisir (img, nom) VALUES
+('/img/draw.png', 'Dessin');
+INSERT INTO web.loisir (img, nom) VALUES
+('/img/music.png', 'Musique');
+INSERT INTO web.loisir (img, nom) VALUES
+('/img/vgames.png', 'Jeux vidéo');
