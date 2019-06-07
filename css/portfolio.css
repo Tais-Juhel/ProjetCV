@@ -168,6 +168,12 @@ footer img{
     padding-top: 2%;
     width: 3%;
 }
+footer a{
+    color: white;
+    text-decoration: none;
+    border: solid 0.5px white;
+    padding: 5px;   
+}
 
 
 

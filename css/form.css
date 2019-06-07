@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+form{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    border: solid transparent;
+    border-radius: 10px;
+    background-color: #19057A;
+    box-shadow: 3px 8px 20px 0 rgba(0,0,0,0.3);
+}
+h1{
+    color: yellow;
+}
+
+input{
+    font-family: 'Rajdhani', sans-serif;
+    padding: 1.5%;
+    border: solid transparent;
+    border-radius: 10px;
+    display: block;
+    width: 80%;
+    margin: 2% auto;
+    outline: none;
+}
+
+input[value="Envoyer"]{
+    width: 30%;
+    font-size: 100%;
+    font-weight: bolder;
+    color: #19057A;
+    background: yellow;
+    cursor: pointer;
+}

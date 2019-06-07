@@ -24,7 +24,7 @@ require_once "_connection.php";
             <li><a href="#">Dîplomes</a></li>
             <li><a href="#">Expérience</a></li>
             <li><a href="#">Loisirs</a></li>
-            <a id="contactNav" href="#">Contact</a>
+            <a id="contactNav" href="/formulaire.php">Contact</a>
         </ul>
     </nav>
 
