@@ -1,6 +1,7 @@
 <?php
 
 require_once '_connection.php';
+require_once '_SQLadmin.php';
 
 ?>
 
@@ -35,7 +36,9 @@ require_once '_connection.php';
 if(isset($_GET['update'])):
     $update = $_GET['update'];
 ?>
+<form method="POST">
     <label for="valeur">Modifier <?= $row[$update]; ?> : </label>
     <input type="text" name="valeur">
     <input type="submit" name="modifier" value="Modifier">
+</form>
 <?php endif; ?>

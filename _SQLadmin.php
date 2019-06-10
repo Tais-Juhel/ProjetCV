@@ -34,11 +34,49 @@ if(isset($_POST['ajouter']) && isset($_GET['add'])){
         header('Location: /admin.php/?page=portfolio');
     }
 }
+
 if(isset($_GET['sup'])){
     $stmt = $dbh->prepare('DELETE FROM web.loisir
         WHERE id = :id');
     $stmt->bindValue('id', $_GET['sup']);
     $stmt->execute();
+}
+
+if(isset($_POST['modifier']) && isset($_GET['update'])){
+    $upd = $_GET['update'];
+    switch($upd){
+        case "compt1":
+            $stmt = $dbh->prepare('UPDATE web.profil
+            SET compt1 = :compt');
+            $stmt->bindValue('compt', $_POST['valeur']);
+            $stmt->execute();
+        break;
+        case 'compt2':
+            $stmt = $dbh->prepare('UPDATE web.profil
+            SET compt2 = :compt');
+            $stmt->bindValue('compt', $_POST['valeur']);
+            $stmt->execute();
+        break;
+        case 'comp3':
+            $stmt = $dbh->prepare('UPDATE web.profil
+            SET compt3 = :compt');
+            $stmt->bindValue('compt', $_POST['valeur']);
+            $stmt->execute();
+        break;
+        case 'comp4':
+            $stmt = $dbh->prepare('UPDATE web.profil
+            SET compt4 = :compt');
+            $stmt->bindValue('compt', $_POST['valeur']);
+            $stmt->execute();
+        break;
+        case 'comp5':
+            $stmt = $dbh->prepare('UPDATE web.profil
+            SET compt5 = :compt');
+            $stmt->bindValue('compt', $_POST['valeur']);
+            $stmt->execute();
+        break;
+    }
+    header('Location: /admin.php');
 }
 
 ?>

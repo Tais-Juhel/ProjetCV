@@ -21,9 +21,9 @@ if(isset($_GET['page'])){
 </head>
 <body>
     <nav class="page">
-        <a href="/admin.php/?page=accueil" class="active">Accueil</a>
-        <a href="/admin.php/?page=portfolio">Portfolio</a>
-        <a href="/admin.php/?page=projet">Projet</a>
+        <a href="/admin.php/?page=accueil" class="<?=($page=='accueil')?'active':''?>">Accueil</a>
+        <a href="/admin.php/?page=portfolio" class="<?=($page=='portfolio')?'active':''?>">Portfolio</a>
+        <a href="/admin.php/?page=projet" class="<?=($page=='projet')?'active':''?>">Projet</a>
     </nav>
 
     <?php
