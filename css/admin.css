@@ -1,3 +1,7 @@
+body{
+    font-family: 'Rajdhani', sans-serif;
+}
+
 .page{
     text-align: center;
 } 
@@ -8,4 +12,22 @@
 }
 .active{
     border-bottom: solid;
+}
+a, .upd{
+    text-decoration: none;
+    color: blue;
+}
+.add{
+    color: green;
+}
+.sup{
+    color: red;
+}
+
+img{
+    width: 80px;
+}
+
+#profil{
+    padding-top: 10vh;
 }

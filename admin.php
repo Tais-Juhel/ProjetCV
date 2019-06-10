@@ -24,23 +24,19 @@ if(isset($_GET['page'])){
         <a href="/admin.php/?page=accueil" class="active">Accueil</a>
         <a href="/admin.php/?page=portfolio">Portfolio</a>
         <a href="/admin.php/?page=projet">Projet</a>
-        <a href="/admin.php/?page=formulaire">Formulaire</a>
     </nav>
 
     <?php
 
     switch ($page){
         case "accueil":
-            require_once "index.php";
+            require_once "_indexA.php";
         break;
         case "portfolio":
-            require_once "portfolio.php";
+            require_once "_portfolioA.php";
         break;
         case "projet":
-            require_once "projet.php";
-        break;
-        case "formulaire":
-            require_once "formulaire.php";
+            require_once "_projetA.php";
         break;
     }
 
