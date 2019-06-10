@@ -1,7 +1,5 @@
 <?php
 
-require_once '_authentification.php';
-
 if(isset($_GET['page'])){
     $page = $_GET['page'];
 }else{
