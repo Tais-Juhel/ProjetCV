@@ -19,11 +19,11 @@ require_once "_connection.php";
     <nav id="menu">
         <ul>
             <a id="logoNav" href="#"><img src="img/monLogo.png" alt="monLogo"/></a>
-            <li><a href="#">Compétences</a></li>
-            <li><a href="#">Projets</a></li>
-            <li><a href="#">Dîplomes</a></li>
-            <li><a href="#">Expérience</a></li>
-            <li><a href="#">Loisirs</a></li>
+            <li><a href="#comp">Compétences</a></li>
+            <li><a href="#proj">Projets</a></li>
+            <li><a href="#dip">Dîplomes</a></li>
+            <li><a href="#exp">Expérience</a></li>
+            <li><a href="#loi">Loisirs</a></li>
             <a id="contactNav" href="/formulaire.php">Contact</a>
         </ul>
     </nav>
@@ -58,7 +58,7 @@ require_once "_connection.php";
     </section>
 
     <section>
-        <h2>COMPETENCES</h2>
+        <h2 id="comp">COMPETENCES</h2>
 
         <nav id="compt">
             <?php
@@ -71,7 +71,7 @@ require_once "_connection.php";
     </section>
 
     <section>
-        <h2>PROJETS</h2>
+        <h2 id="proj">PROJETS</h2>
 
         <div id="projet">
             <a href="#">
@@ -81,7 +81,7 @@ require_once "_connection.php";
     </section>
 
     <section>
-        <h2>DÎPLOMES</h2>
+        <h2 id="dip">DÎPLOMES</h2>
 
         <ul>
             <?php
@@ -94,7 +94,7 @@ require_once "_connection.php";
     </section>
 
     <section>
-        <h2>EXPERIENCE</h2>
+        <h2 id="exp">EXPERIENCE</h2>
 
         
         <?php
@@ -123,7 +123,7 @@ require_once "_connection.php";
     </section>
 
     <section>
-        <h2>LOISIRS</h2>
+        <h2 id="loi">LOISIRS</h2>
 
         <ul id="loisirs">
             <?php
