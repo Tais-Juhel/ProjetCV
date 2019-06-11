@@ -85,11 +85,11 @@ require_once "_connection.php";
 
         <ul>
             <?php
-                $stmt = $dbh->query('SELECT * FROM web.diplome');
-                while($row = $stmt->fetch(PDO::FETCH_ASSOC)):
+            $stmt = $dbh->query('SELECT * FROM web.diplome');
+            while($row = $stmt->fetch(PDO::FETCH_ASSOC)):
             ?>
-            <li><?= $row['dipl'] ?></li>
-                <?php endwhile; ?>
+                <li><?= $row['dipl'] ?></li>
+            <?php endwhile; ?>
         </ul>
     </section>
 

@@ -32,7 +32,7 @@ require_once '_connection.php';
     </div>
     <div>
         <a href="portfolio.php"><input type="button" name="Portfolio" value="Portfolio"></a>
-        <a><input type="button" name="CV" value="Télécharger mon CV"></a>
+        <a href="/img/CVTaisJ.pdf" download="Pacman_Kiwi"><input type="button" name="CV" value="Télécharger mon CV"></a>
     </div>
 </body>
 </html>
