@@ -24,9 +24,7 @@
     <article>
         <h1>UN STAGIAIRE, UN BLOG</h1>
         <h2>Qu'est-ce que c'est ?</h2>
-        <p>​Dans ce blog vous retrouverez l'histoire de mes premiers pas dans le monde de l'entreprise et plus particulièrement dans celui de 
-l'informatique. A la fin de chaque nouvelles périodes de stage ou d'emploie au courant de mes années d'études je ferais un rapport 
-de ces expériences. J'espère que ce blog pourras t'aider dans l'orientation de tes recherches et à te faire une idée sur ce que peut être un stage. Bonne lecture !</p>
+        <p>Dans ce blog vous trouverez l'histoire de mes premiers pas dans le monde de l'entreprise et plus particulièrement dans celui de l'informatique. A la fin de chaque nouvelle période de stage ou d'emploi au courant de mes années d'études je ferais un rapport de ces expériences. J'espère que ce blog pourra vous aider dans l'orientation de vos recherches et vous donner un aperçu sur ce que peut être un stage. Bonne lecture !</p>
         <a href="/blog.php"><input type="button" value="ACCEDER AU BLOG"></a>
     </article>
 </body>
