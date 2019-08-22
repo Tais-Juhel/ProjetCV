@@ -11,7 +11,7 @@
 <body>
     <section>
         <div>
-            <img src="./img/PhotoProfil.jpg" alt="profil">
+            <img src="./img/photoProfil.jpg" alt="profil">
             <div>
                 <p>Taïs JUHEL - 19 ans</p>
                 <p>Etudiant en informatique - Ynov Campus Nantes</p>
