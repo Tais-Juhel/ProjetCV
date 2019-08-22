@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+h1{
+    font-weight: bolder;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+#pres{
+    height: 80vh;
+    font-weight: lighter;
+    text-align: center;
+    background: url(../img/applePC.jpg);
+    background-size: 100%;
+}
+#pers img{
+    color: red;
+}
+#svg{
+    display: flex;
+    justify-content: flex-end;
+    padding: 2% 10%;
+}
+svg{
+    fill: lightgray;
+    width: 25px;
+}
+#svg a{
+    margin: 5px;
+    color: lightgray;
+}
+
+#profPres{
+    position: relative;
+    color:white;
+    text-align: left;
+}
+
+
+
+#cadre{
+    display: inline-block;
+    margin-left: 20%;
+    border: solid 2px white;
+    padding: 2%;
+}
+#cadre p{
+    margin: 0;
+    margin-bottom: 8%;
+    font-size: 60px;
+    height: 50px;
+    font-weight: 800;
+}
+
+
+
+#profPres div:last-child{
+    text-align: center;
+    position: absolute;
+    left: 55%;
+    top: 60%;
+}
+#profPres div:last-child p:first-child{
+    font-size: 60px;
+}
+
+
+
+article{
+    text-align: center;
+    padding: 15vh 0;
+}
+article h2{
+    margin: 7vh 0;
+    color: #B38A4C;
+    font-size: 60px;
+}
+article p{
+    margin: 0 auto;
+    padding: 7vh 0;
+    font-size: 20px;
+    color: #707070;
+    width: 75%;
+}
+article:nth-child(2n){
+    background-color: #FAF5F5;
+}
